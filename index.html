@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <section class="row-1 bg">
+            <div class="container-info">
+                <div class="subtitle">Nos vamos a casar</div>
+                <div class="title">Sara & Rodrigo</div>
+                <button class="btn btn-transparent">Confirmer</button>
+                <div class="date">05.09.25</div>
+            </div>
+        </section>
+        <section class="block-confirm">
+            <img class="banner" src="images/7.jpeg" alt="">
+            <form action="">
+                <div class="row-form">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+                
+                <div class="row-form">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="prenom" required>
+                </div>
+                
+                <div class="row-form">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            
+                <fieldset>
+                    <legend>Présence</legend>
+                    <div class="row-form">
+                        <label for="present-oui">Serez-vous présent?</label>
+                        <input type="radio" id="present-oui" name="presence" value="Oui">
+                        <label for="present-oui">Oui</label>
+            
+                        <input type="radio" id="present-non" name="presence" value="Non">
+                        <label for="present-non">Non</label>
+                    </div>
+                </fieldset>
+            
+                <div class="row-form">
+                    <label for="restrictions">Vous avez des restrictions alimentaires à nous signaler ?</label>
+                    <textarea id="restrictions" name="restrictions" rows="4" placeholder="Indiquez vos restrictions ici..."></textarea>
+                </div>
+            
+                <div class="row-form">
+                    <button type="submit">Envoyer</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

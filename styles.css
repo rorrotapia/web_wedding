@@ -1,0 +1,99 @@
+/* Style de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.bg{
+    background-size: cover;
+    background-image: url("images/2.jpeg");
+    background-repeat: no-repeat;
+    height: 100dvh;
+    width: 100%;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.title {
+    font-size: 3.2rem;
+    letter-spacing: .1rem;
+    font-weight: 500;
+    color: white;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Ombre du texte */
+    margin-bottom: 3rem;
+}
+
+.date {
+    margin-top: 1rem;
+    font-family: 'Alegreya SC', serif;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+
+.position-relative {
+    position: relative;
+}
+.position-absolute {
+    position: absolute;
+}
+
+.btn-transparent {
+    background-color: transparent!important;
+    border: 1px solid white!important;
+    color: white;
+}
+
+.btn {
+    font-family: "MadeMirage", sans-serif;
+    border: 0;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+
+/* Définition de la police avec les fichiers locaux et poids explicitement associés */
+@font-face {
+    font-family: "MadeMirage";
+    src: url("font/MADE_Mirage_Bold.otf") format("opentype");
+    font-weight: 700; /* Bold */
+}
+
+@font-face {
+    font-family: "MadeMirage";
+    src: url("font/MADE_Mirage_Regular.otf") format("opentype");
+    font-weight: 400; /* Regular */
+}
+
+@font-face {
+    font-family: "MadeMirage";
+    src: url("font/MADE_Mirage_Medium.otf") format("opentype");
+    font-weight: 500; /* Medium */
+}
+
+
+body {
+    font-family: "MadeMirage", sans-serif;
+    font-weight: 400; /* Normal (Regular) */
+}
+
+
+/* BLOCK CONFIRM **/
+.banner {
+    object-fit: cover;
+    height: 30dvh;
+    width: 100%;
+}
